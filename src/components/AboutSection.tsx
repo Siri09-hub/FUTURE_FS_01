@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { GraduationCap, Target } from "lucide-react";
 
 const AboutSection = () => (
-  <section id="about" className="section-padding bg-card">
+  <section id="about" className="section-padding bg-background">
     <div className="container mx-auto max-w-4xl">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
