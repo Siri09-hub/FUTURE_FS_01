@@ -11,7 +11,7 @@ const HeroSection = () => (
         transition={{ duration: 0.7 }}
       >
         <p className="text-accent font-semibold mb-2">Hello, I'm</p>
-        <h1 className="text-4xl md:text-6xl font-extrabold font-heading leading-tight text-foreground">
+        <h1 className="font-heading text-[1.7rem] sm:text-4xl md:text-[3.1rem] lg:text-6xl font-extrabold leading-tight tracking-tight text-foreground whitespace-nowrap">
           Siri Harshini Revu
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-md">
