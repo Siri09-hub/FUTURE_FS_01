@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
-import avatarImg from "@/assets/avatar.png";
 
 const HeroSection = () => (
   <section id="home" className="min-h-screen flex items-center section-padding pt-28">
@@ -13,8 +12,7 @@ const HeroSection = () => (
       >
         <p className="text-accent font-semibold mb-2">Hello, I'm</p>
         <h1 className="text-4xl md:text-6xl font-extrabold font-heading leading-tight text-foreground">
-          Siri Harshini<br />
-          <span className="text-gradient">Revu</span>
+          Siri Harshini Revu
         </h1>
         <p className="mt-4 text-lg text-muted-foreground max-w-md">
           Full Stack Developer &amp; CSE Student — Aspiring developer creating impactful digital solutions.
@@ -42,7 +40,7 @@ const HeroSection = () => (
         </div>
       </motion.div>
 
-      {/* Avatar */}
+      {/* SHR Monogram */}
       <motion.div
         initial={{ opacity: 0, scale: 0.8 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -50,8 +48,8 @@ const HeroSection = () => (
         className="flex justify-center"
       >
         <div className="relative">
-          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-accent/20 shadow-lg animate-float">
-            <img src={avatarImg} alt="Siri Harshini Revu" width={512} height={512} className="w-full h-full object-cover" />
+          <div className="w-64 h-64 md:w-80 md:h-80 rounded-full border-4 border-accent/20 shadow-lg animate-float flex items-center justify-center bg-secondary">
+            <span className="font-heading text-6xl md:text-8xl font-extrabold text-gradient select-none">SHR</span>
           </div>
           <div className="absolute -z-10 inset-0 rounded-full bg-accent/10 blur-3xl scale-125" />
         </div>

@@ -19,7 +19,7 @@ const categories = [
   },
   {
     title: "Core Concepts",
-    skills: ["OOP", "Data Structures", "Advanced DSA", "DBMS", "Operating Systems"],
+    skills: ["OOPJ", "Data Structures", "ADSAA", "DBMS", "Operating Systems"],
   },
 ];
 
