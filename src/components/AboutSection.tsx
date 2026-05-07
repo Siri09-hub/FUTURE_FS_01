@@ -14,7 +14,7 @@ const AboutSection = () => (
           About <span className="text-gradient">Me</span>
         </h2>
         <p className="mt-6 text-muted-foreground leading-relaxed text-center max-w-2xl mx-auto">
-          I am a Computer Science student and aspiring full stack developer with a strong interest in building real-world applications. I have hands-on experience in Java, Python, and web technologies, along with a solid foundation in data structures and databases. I enjoy solving problems and continuously learning new technologies to improve my skills. I have developed projects that reflect my practical knowledge and problem-solving skills. My goal is to grow as a software developer and contribute to impactful and innovative solutions.
+          Motivated Computer Science &amp; Engineering undergraduate with a strong foundation in programming, data structures, and software development. I build academic and personal projects across Java, Python, and modern web stacks, and I'm passionate about solving real-world problems with clean, scalable code. Actively seeking internship and entry-level opportunities to apply my skills and grow as a full stack developer.
         </p>
 
         <div className="mt-12 grid sm:grid-cols-2 gap-6">
